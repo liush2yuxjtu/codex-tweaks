@@ -14,7 +14,15 @@ This fork features **T3UI**, a local extension for the **Codex sidebar in ChatGP
 
 [Browse the T3UI v1.1.1 source and installation guide](extensions/t3ui/README.md)
 
-**Install on macOS**
+### Windows Snooze demo
+
+The clock icon opens the Snooze picker. This 8-second demo shows **In 1 hour** moving a chat to **Snoozed**, where its wake time is visible. Recorded with T3UI 1.1.1 in the Windows ChatGPT desktop app on Boat using Wine.
+
+[![T3UI 1.1.1 Snooze demo in the Windows ChatGPT Codex sidebar](docs/demos/t3ui-snooze-windows.gif)](docs/demos/t3ui-snooze-windows.gif)
+
+[Download the MP4](docs/demos/t3ui-snooze-windows.mp4?raw=true)
+
+### Install on macOS
 
 1. Install [Codex Tweaks from upstream GitHub Releases](https://github.com/codex-tweaks/codex-tweaks/releases) and download or clone this fork.
 2. In **Codex Tweaks → Packages → Install local package**, select the fork's `extensions/t3ui` folder. Build it if prompted, then enable **T3UI**.
