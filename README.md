@@ -2,7 +2,28 @@
   <img alt="Codex Tweaks" src="app/Resources/Branding/CodexTweaks-AppIcon.png" width="128">
 </p>
 
-<h1 align="center">Codex Tweaks</h1>
+<h1 align="center">Codex Tweaks + T3UI</h1>
+
+This fork features **T3UI**, a local extension for the **Codex sidebar in ChatGPT Desktop**. Use an icon-only **Settle** action to put away finished chats and **Snooze** to bring chats back when you need them.
+
+## T3UI · Featured Codex Tweaks extension
+
+- **Settle** puts a finished chat in the collapsible **Settled** section. The tray icon sits beside the Snooze clock.
+- **Snooze** returns a chat after one hour, tomorrow at 9 AM, or at a custom date and time. Running work continues while the chat is snoozed.
+- **Wake now** restores a snoozed chat early. **Undo** is available immediately after settling or snoozing.
+
+[Browse the T3UI v1.1.1 source and installation guide](extensions/t3ui/README.md)
+
+**Install on macOS**
+
+1. Install [Codex Tweaks from upstream GitHub Releases](https://github.com/codex-tweaks/codex-tweaks/releases) and download or clone this fork.
+2. In **Codex Tweaks → Packages → Install local package**, select the fork's `extensions/t3ui` folder. Build it if prompted, then enable **T3UI**.
+
+T3UI 为 ChatGPT 桌面版的 Codex 侧栏提供图标式收起、定时稍后处理以及立即恢复。将本仓库下载到本机后，在 **Codex Tweaks → 功能包 → 安装本地包** 中选择 `extensions/t3ui` 目录即可安装。
+
+---
+
+## 关于 Codex Tweaks
 
 <p align="center">
   Codex Tweaks 是一个面向 Codex 桌面客户端的本地界面定制工具。<br>

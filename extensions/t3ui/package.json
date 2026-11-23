@@ -1,0 +1,15 @@
+{
+  "name": "T3UI",
+  "version": "1.1.1",
+  "description": "Settle finished Codex chats or snooze them until a chosen time.",
+  "type": "module",
+  "private": true,
+  "keywords": ["codex-tweaks-package", "codex-tweaks-workflow"],
+  "dependencies": {},
+  "codexTweaks": {
+    "apiVersion": 3,
+    "entrypoints": { "renderer": "src/index.js" },
+    "priority": 100,
+    "packageDependencies": {}
+  }
+}
